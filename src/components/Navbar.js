@@ -64,16 +64,16 @@ function Navbar() {
             <div className='hidden lg:flex flex-col fixed top-[35%] left-0'>
                <ul>
                    <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>LinkedIn
-                            <FaLinkedin className='flex justify-between items-center w-full text-gray-300 ml-[35px] size={30}/>
+                            <FaLinkedin className='flex justify-between items-center w-full text-gray-300 ml-[35px]' size={30}/>
                     </li>
                     <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>GitHub
-                        <FaGithub className='flex justify-between items-center w-full text-gray-300 ml-[35px] size={30}/>
+                        <FaGithub className='flex justify-between items-center w-full text-gray-300 ml-[35px]' size={30}/>
                     </li>
                     <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>Email 
-                            <HiOutlineMail className='flex justify-between items-center w-full text-gray-300 ml-[35px] size={30}/> 
+                            <HiOutlineMail className='flex justify-between items-center w-full text-gray-300 ml-[35px]' size={30}/> 
                     </li>
                     <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>Resume
-                            <BsFillPersonLinesFill className='flex justify-between items-center w-full text-gray-300 ml-[35px] size={30}/> 
+                            <BsFillPersonLinesFill className='flex justify-between items-center w-full text-gray-300 ml-[35px]' size={30}/> 
                     </li>
               </ul>
             </div>
